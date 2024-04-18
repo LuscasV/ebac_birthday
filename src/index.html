@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <!-- Cabeçalho header -->
+    <header class="hero">
+        <div class="container">
+            <p class="hero__text">
+                Aniversário em <span id="contador"></span>
+            </p>
+            <div class="infos-bar">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Localização</b>
+                        Rua Gustavo Capanema - Mutum - MG
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Idade</b>
+                        20 anos
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        01/07/2024 às 19hrs
+                    </li>
+                </ul>
+                <a href="#" class="button button--primary">
+                    Marque sua Presença
+                </a>
+            </div>
+        </div>
+    </header>
+            <!-- Seção Front-end -->
+    <section class="event event--frontend" >
+        <div class="container" data-aos="fade-down">
+            <div class="event__details">
+                <h2 class="event__details__title">Biografia</h2>
+                <p class="event__details__description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora deleniti repudiandae praesentium optio quo quisquam, voluptas magni culpa inventore facilis delectus officiis dolorem at tenetur, fugit doloribus earum maxime quidem.
+                </p>
+            </div>
+            <img class="event__image2" src="./images/IMG_20240316_124049_498.webp" alt="Lucas">
+        </div>
+    </section>
+                <!-- Seção UI UX -->
+    <section class="event event--ui-ux event--image-left" >
+        <div class="container" data-aos="fade-left">
+            <div class="event__details">
+                <h2 class="event__details__title">Detalhes</h2>
+                <p class="event__details__description">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Tempora deleniti repudiandae praesentium optio quo quisquam, voluptas magni culpa inventore facilis delectus officiis dolorem at tenetur, fugit doloribus earum maxime quidem.
+                </p>
+            </div>
+            <img class="event__image" src="./images/IMG_20240313_121158_874.jpg" alt="Lucas">
+        </div>
+    </section>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
